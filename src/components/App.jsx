@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
-import Profile from "./Profile";
 
 function createCard(contacts) {
   return <Card
+  id= {contacts.id}
 key = {contacts.id}
 name= {contacts.name}
 img = {contacts.imgURL}
